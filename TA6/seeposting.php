@@ -25,7 +25,7 @@
         }
              ?>
         </table>
-        <a href="beranda.php">beranda</a>
+        <a href="beranda.html">beranda</a>
     </div>
 </body>
 </html>
