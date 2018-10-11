@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>Daftar Terlebih Dahulu Sebelum Login</h2>
+	<table>
+		<form method="POST" action="output.php">
+			<tr>
+				<td>
+					Nama: 
+				</td>
+				<td><input type="text" name="nama" maxlength="35"></td>
+			</tr>
+			<tr>
+				<td>
+					Nim: 
+				</td>
+				<td><input type="number" name="nim" maxlength="10"></td>
+			</tr>
+			<tr>
+				<td>
+					Kelas:
+				</td>
+				<td>
+					<input type="radio" name="kelas" value="01"> 01
+					<input type="radio" name="kelas" value="02"> 02
+					<input type="radio" name="kelas" value="03"> 03
+					<input type="radio" name="kelas" value="04"> 04
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Jenis Kelamin: 
+				</td>
+				<td>
+					<input type="radio" name="jenkel" value="Laki-laki">Laki-laki
+					<input type="radio" name="jenkel" value="Perempuan">Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Hobi: 
+				</td>
+				<td>
+						<input type="checkbox" name="hobi" value="Tidur">Tidur <br>
+						   <input type="checkbox" name="hobi" value="Lari">Lari <br>
+						   <input type="checkbox" name="hobi" value="Nonton ">Nonton<br>
+						   <input type="checkbox" name="hobi" value="Membaca">Membaca <br>
+						   <input type="checkbox" name="hobi" value="Bersepeda">Bersepeda <br>
+				</td>
+			</tr>
+			<tr>
+				<td>Fakultas:</td>
+				<td>
+					<select name="fak">
+						<option value="FIT">FIT</option>
+						<option value="FIK">FIK</option>
+						<option value="FIF">FIF</option>
+						<option value="FEB">FEB</option>
+						<option value="FKB">FKB</option>
+						<option value="FTE">FTE</option>
+						<option value="FRI">FRI</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Alamat: 
+				</td>
+				<td><textarea name="alamat"></textarea></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="simpan" value="Simpan">
+				</td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
