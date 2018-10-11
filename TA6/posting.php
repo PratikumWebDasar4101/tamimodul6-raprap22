@@ -16,7 +16,7 @@
                 <td>
                     Nim: 
                 </td>
-                <td><input type="text" name="nim" pattern="\d*" maxlength="10" min="0" required value="<?php echo $data['nim'] ?>"></td>
+                <td><input type="text" name="nim" maxlength="10"></td>
             </tr>
         <tr>
             <td>Kisah: <br></td>
