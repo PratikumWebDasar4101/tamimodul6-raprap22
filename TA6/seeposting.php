@@ -18,8 +18,7 @@
             
             <tr>
                 <td><?php echo $data['nim'];?></td>
-                <td><?php echo $data["post"];?></td>
-                <!-- <td><?php echo $data['pict'];?></td> -->
+                <td><?php echo $data["post"];?></td>            
                 <td><img src="<?php echo $data['pict'];?>"></td>
             </tr>
             <?php 
